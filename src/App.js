@@ -6,6 +6,8 @@ import Shop from './components/Shop';
 import Error from './components/Error';
 import Navbar from './components/Navbar';
 import Register from './components/Register';
+import Login from './components/login/login';
+import Finance from './components/Finance';
 
 function App() {
 	return (
@@ -16,6 +18,8 @@ function App() {
 			<Route path="/" component = {Home} exact/>
 			<Route path="/about" component = {About} />
 			<Route path="/register" component = {Register} />
+			<Route path="/login" component = {Login} />
+			<Route path="/finance" component = {Finance} />	
 			<Route component = {Error} />
 			</Switch>
 		</div>
